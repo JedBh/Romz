@@ -1,9 +1,25 @@
 body {
-    margin: 0;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .box {
-    width: 100%;
-    padding-bottom: 3px;
+    width: 50%;
+}
 
+.box div {
+    padding: 2px;
+}
+
+.box div:nth-of-type(odd) {
+    background: #d6d6d66e;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container span input {
+    float: right;
 }

@@ -29,3 +29,15 @@ function genRandomColor() {
 }
 
 // init_lines(510);
+
+// inputs
+let inputName = document.getElementById("name");
+let inputAge = document.getElementById("age");
+let inputHeight = document.getElementById("height");
+let inputMass = document.getElementById("mass");
+
+// genral inputs
+let inputs = document.querySelectorAll("input");
+
+// buttons
+let button = document.querySelector("button");
