@@ -27,7 +27,6 @@ function genRandomColor() {
 
     return `rgb(${r}, ${g}, ${b})`;
 }
-
 // init_lines(510);
 
 // inputs
@@ -41,3 +40,4 @@ let inputs = document.querySelectorAll("input");
 
 // buttons
 let button = document.querySelector("button");
+
